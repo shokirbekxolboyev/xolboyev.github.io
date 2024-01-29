@@ -1,0 +1,403 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-family: 'Roboto', 'Helvetica Neue';
+}
+
+header {
+  background-image: url(./img/Layer\ 101\ 1\ \(1\).png);
+  max-width: 100%;
+  height: 715px;
+  background-size: cover;
+  position: relative;
+}
+
+header nav {
+  max-width: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .logo p {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+header nav ul li a {
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.header_main h1 {
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 41px;
+  font-weight: 700;
+}
+
+.header_main p {
+  color: #fff;
+  margin-top: 20px;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.header_main button {
+  margin-top: 40px;
+  color: #fff;
+  width: 158px;
+  height: 45px;
+  flex-shrink: 0;
+  border: 2px solid #fff;
+
+  background: rgba(196, 196, 196, 0);
+}
+
+header nav ul li a:active {
+  color: #b78601;
+}
+
+header nav ul li {
+  display: inline-block;
+  padding: 20px;
+}
+
+header .header_main {
+  padding-top: 250px;
+  text-align: center;
+  max-width: 80%;
+  margin: auto;
+}
+
+.main__servis {
+  text-align: center;
+  max-width: 100%;
+}
+
+.main__ikkinchi {
+  height: auto;
+  max-width: 1000px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  margin-top: 40px;
+}
+
+.main__uch {
+  text-align: center;
+}
+
+.main__odam {
+  text-align: center;
+  max-width: 100%;
+  margin-top: 70px;
+}
+
+.l1 {
+  max-width: 500px;
+  margin: auto;
+}
+
+.main__lorem {
+  display: grid;
+  grid-template-columns: auto auto;
+  margin-top: 40px;
+}
+
+.main__4rasm {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  margin-top: 40px;
+  text-align: center;
+}
+
+.rasm img {
+  max-width: 100%;
+}
+
+.main__nav {
+  text-align: center;
+  max-width: 100%;
+}
+
+.main__nav ul {
+  display: flex;
+  max-width: 100%;
+}
+
+.main__qush {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  text-align: center;
+  margin-top: 60px;
+}
+
+.main__qush1 img {
+  max-width: 100%;
+}
+
+.main__like {
+  background-image: url(./img/Layer\ 29\ 1.png);
+  max-width: 100%;
+  height: 300px;
+  font-size: 25px;
+  text-align: center;
+  color: #fff;
+  margin-top: 40px;
+}
+
+.main__like p {
+  margin-top: 20px;
+}
+
+.main__like button {
+  max-width: 147px;
+  max-height: 44px;
+  padding: 15px;
+  background: transparent;
+  margin-top: 40px;
+}
+
+.lor {
+  text-align: center;
+  max-width: 100%;
+  margin-top: 40px;
+}
+
+.main__resent {
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.stul img {
+  width: 100%;
+}
+
+.stol {
+  margin-top: 20px;
+  max-width: 600px;
+}
+
+.k1 {
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.k2 {
+  border: 1px solid black;
+  max-width: 68px;
+  max-height: 68px;
+  padding: 15px;
+}
+
+.main__resent2 {
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.k1 a {
+  color: red;
+}
+
+.main__deorham {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  text-align: center;
+  margin-top: 40px;
+  max-width: 100%;
+}
+
+.main__tag {
+  margin: auto;
+  text-align: center;
+  max-width: 500px;
+  margin-top: 40px;
+}
+
+.j1 p {
+  font-style: italic;
+  font-size: 15px;
+}
+
+.main__elle {
+  display: flex;
+  margin-top: 20px;
+  justify-content: center;
+}
+
+.main__get__bosh {
+  text-align: center;
+  margin-top: 70px;
+  max-width: 100%;
+}
+
+.add p {
+  max-width: 200px;
+  max-height: auto;
+}
+
+.bo {
+  display: flex;
+}
+
+.ota {
+  border: 1px solid black;
+  max-width: 307px;
+  height: 40px;
+  padding: 15px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.mm {
+  display: flex;
+  margin-top: 20px;
+}
+
+.main__oxiri {
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: center;
+  max-width: 100%;
+}
+
+.ob {
+  border: 1px solid black;
+  max-width: 640px;
+  height: 92px;
+  margin-top: 20px;
+}
+
+.bob {
+  border: 1px solid black;
+  width: 150px;
+  height: 40px;
+  margin-top: 20px;
+}
+
+.footer__bosh {
+  background-color: #C1301D;
+  max-width: 100%;
+  height: 200px;
+  margin-top: 40px;
+  text-align: center;
+}
+
+.lo {
+  margin-top: 40px;
+}
+
+.lo img {
+  border: 1px solid #fff;
+  width: 30px;
+  height: 30px;
+  border-radius: 40px;
+  margin-top: 40px;
+}
+
+.oxiri {
+  margin-top: 40px;
+}
+
+@media screen and (max-width:500px) {
+  .main__oxiri {
+    grid-template-columns: auto;
+  }
+}
+
+@media screen and (max-width:800px) {
+  .main__deorham {
+    grid-template-columns: auto auto auto auto;
+  }
+}
+
+@media screen and (max-width:700px) {
+  .main__deorham {
+    grid-template-columns: auto auto auto;
+  }
+}
+
+@media screen and (max-width:600px) {
+  .main__deorham {
+    grid-template-columns: auto auto;
+  }
+}
+
+@media screen and (max-width:500px) {
+  .main__deorham {
+    grid-template-columns: auto;
+  }
+}
+
+@media screen and (max-width:500px) {
+  .main__resent2 {
+    grid-template-columns: auto;
+  }
+}
+
+@media screen and (max-width:500px) {
+  .main__resent {
+    grid-template-columns: auto;
+  }
+}
+
+@media screen and (max-width:600px) {
+  .main__qush {
+    grid-template-columns: auto auto;
+  }
+}
+
+@media screen and (max-width:500px) {
+  .main__qush {
+    grid-template-columns: auto;
+  }
+}
+
+@media screen and (max-width:700px) {
+  .main__4rasm {
+    grid-template-columns: auto auto auto;
+  }
+}
+
+@media screen and (max-width:600px) {
+  .main__4rasm {
+    grid-template-columns: auto auto;
+  }
+}
+
+@media screen and (max-width:500px) {
+  .main__4rasm {
+    grid-template-columns: auto;
+  }
+}
+
+@media screen and (max-width:700px) {
+  .main__ikkinchi {
+    grid-template-columns: auto auto;
+  }
+}
+
+@media screen and (max-width:500px) {
+  .main__ikkinchi {
+    grid-template-columns: auto;
+  }
+}
+
+@media screen and (max-width:500px) {
+  .main__lorem {
+    grid-template-columns: auto;
+  }
+}
